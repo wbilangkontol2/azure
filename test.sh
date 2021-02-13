@@ -30,7 +30,8 @@ done
 
 
 #adding repo
-env git remote add origin https://github.com/pepekwlebar1/fdsfds.git
+env git remote rm origin
+env git remote add origin https://github.com/pepekwlebar1/sfas.git
 
 #pushing to github
 env git push -u origin main
