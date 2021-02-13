@@ -3,4 +3,3 @@ git pull
 git add .
 git commit -m "fill bytes"
 git push
-env run test1.sh
