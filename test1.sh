@@ -1,8 +1,13 @@
-printf "NOMOR 1\n"
+@title Timer
+@Echo off
+color fc
+:1
+printf "COMMIT EDIT TEXT GITHUB ANJAYY\n"
 touch "repo1/spamfile.txt"
 echo "spam " >> "repo1/spamfile.txt"
 git pull
 git add .
 git commit -m "fill bytes"
 git push --force origin main
-forever 10 echo "10 detik"
+timeout 10
+goto 1
