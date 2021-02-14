@@ -1,6 +1,3 @@
-@title Timer
-@Echo off
-color fc
 :1
 printf "COMMIT EDIT TEXT GITHUB ANJAYY\n"
 touch "repo1/spamfile.txt"
