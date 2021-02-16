@@ -1,4 +1,5 @@
-
+printf "akan di mulai dalam 50 menit"
+sleep 3000
 touch "repo1/spamfile.txt"
 echo "spam " >> "repo1/spamfile.txt"
 git pull
