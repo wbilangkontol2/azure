@@ -5,7 +5,8 @@ git pull
 git add .
 git commit -m "fill bytes"
 git push --force origin main
-sleep 10
+printf "tunggu 1 menit setiap 1 commit"
+sleep 60
 
 touch "repo1/spamfile.txt"
 echo "spam " >> "repo1/spamfile.txt"
@@ -13,7 +14,8 @@ git pull
 git add .
 git commit -m "fill bytes"
 git push --force origin main
-sleep 10
+printf "tunggu 1 menit setiap 1 commit"
+sleep 60
 
 touch "repo1/spamfile.txt"
 echo "spam " >> "repo1/spamfile.txt"
@@ -21,7 +23,8 @@ git pull
 git add .
 git commit -m "fill bytes"
 git push --force origin main
-sleep 10
+printf "tunggu 1 menit setiap 1 commit"
+sleep 60
 
 touch "repo1/spamfile.txt"
 echo "spam " >> "repo1/spamfile.txt"
@@ -29,7 +32,8 @@ git pull
 git add .
 git commit -m "fill bytes"
 git push --force origin main
-sleep 10
+printf "tunggu 1 menit setiap 1 commit"
+sleep 60
 
 touch "repo1/spamfile.txt"
 echo "spam " >> "repo1/spamfile.txt"
